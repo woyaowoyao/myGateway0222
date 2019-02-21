@@ -1,0 +1,21 @@
+{
+    "name": "my-uaa-01",
+    "version": "0.0.0",
+    "description": "Description for myUAA01",
+    "private": true,
+    "license": "UNLICENSED",
+    "cacheDirectories": [
+        "node_modules"
+    ],
+    "devDependencies": {
+        "generator-jhipster-standalone-profile": "2.3.0",
+        "generator-jhipster-docker": "2.5.0",
+        "generator-jhipster-swagger-cli": "3.0.1",
+        "generator-jhipster-uaa-security-authority": "1.0.1",
+        "generator-jhipster-administration-database": "1.0.4",
+        "generator-jhipster": "5.7.2"
+    },
+    "engines": {
+        "node": ">=8.9.0"
+    }
+}

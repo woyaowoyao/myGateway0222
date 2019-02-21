@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ibm.sp.user"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "uaa",
+    "baseName": "myUAA01",
+    "packageName": "com.ibm.sp.user",
+    "packageFolder": "com/ibm/sp/user",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "M2Q4ZTIzYTMxMjRlY2RkYTQyY2Y4ZWRmZDc0MTgxNjlkMTc3MDZjOTViYzdmOGQyZmEzZjRlY2ZiN2M4NjU1YmRkNGVkNmEyMDdkMDY1MThmNTIzODYzYzA3ZDYwNDU2NjAzYjRmNjc1OWQ3N2JhMDk2NDE1NzMzMzMwNmJjNDY=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-standalone-profile",
+        "version": "2.3.0"
+      },
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.5.0"
+      },
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "3.0.1"
+      },
+      {
+        "name": "generator-jhipster-uaa-security-authority",
+        "version": "1.0.1"
+      },
+      {
+        "name": "generator-jhipster-administration-database",
+        "version": "1.0.4"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true
+  }
+}
