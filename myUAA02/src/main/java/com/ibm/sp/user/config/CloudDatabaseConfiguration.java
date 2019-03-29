@@ -1,6 +1,6 @@
 package com.ibm.sp.user.config;
 
-import io.github.jhipster.config.JHipsterConstants;
+
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +12,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 
 @Configuration
-@Profile(JHipsterConstants.SPRING_PROFILE_CLOUD)
+@Profile(com.ibm.sp.user.utils.AppConstants.SPRING_PROFILE_CLOUD)
 public class CloudDatabaseConfiguration extends AbstractCloudConfig {
 
     private final Logger log = LoggerFactory.getLogger(CloudDatabaseConfiguration.class);

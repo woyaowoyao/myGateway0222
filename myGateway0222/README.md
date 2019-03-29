@@ -127,6 +127,9 @@ To achieve this, first build a docker image of your app by running:
 
     ./mvnw package -Pprod verify jib:dockerBuild
 
+mvn -Dmaven.test.skip=true package -Pprod verify jib:dockerBuild
+
+mvn -DskipTests package verify jib:dockerBuild
 Then run:
 
     docker-compose -f src/main/docker/app.yml up -d

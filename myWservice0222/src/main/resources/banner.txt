@@ -1,4 +1,6 @@
 
 
-${AnsiColor.BRIGHT_BLUE}:: JHipster 🤓  :: Running Spring Boot ${spring-boot.version} ::
-:: https://www.ibm.tech ::${AnsiColor.DEFAULT}
+${AnsiColor.BRIGHT_BLUE}:: 🤓  :: Running Spring Boot ${spring-boot.version} ::
+
+@@@
+@@@

@@ -6,7 +6,7 @@
     <artifactId>my-gateway-0222</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>My Gateway 0222</name>
+    <name>my Gateway 0222</name>
 
     <repositories>
         <!-- jhipster-needle-maven-repository -->
