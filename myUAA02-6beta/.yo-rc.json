@@ -1,0 +1,34 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ibm.sp.user"
+    },
+    "jhipsterVersion": "6.0.0-beta.0",
+    "applicationType": "uaa",
+    "baseName": "myUAA02",
+    "packageName": "com.ibm.sp.user",
+    "packageFolder": "com/ibm/sp/user",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWY5Y2JjODhmNTIxNDZhNGM3ZmQyZDUzOWNhMDM0YzZjODU5NDAyZDIzZTE1NTRjNTUwNzdiODY3Nzg5MDczOTA4NGU3YmY3ZmViOTVlZmYxNDhjOTQ2ZjEzMzQ4Mjk5YTYxZDVhOTBiYTk4N2M3YTMxMzRlYzRmZmUzZjEyNTU=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true
+  }
+}
