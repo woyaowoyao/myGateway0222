@@ -1,0 +1,50 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ibm.sp.user"
+    },
+    "jhipsterVersion": "6.0.0-beta.0",
+    "applicationType": "gateway",
+    "baseName": "SmartPlanGateway6b",
+    "packageName": "com.ibm.sp.user",
+    "packageFolder": "com/ibm/sp/user",
+    "serverPort": "9080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NDE0MzBmNjNlZjQ2MGM5YjgzZDMyNGZiZThhZmM4YjRjMGQ5NDkyMGEyOWY4ZmQwMDA2Yjg4NDgzM2ZlNGM0ODFhYWNkYWE5OWZiNzdlNDQzMjEyYWZjZDQ4M2Y1ODA4NzI5MzVkMzhmOTEzNjFlMzRiNDllZGFmNWM2MjY4Yzc=",
+    "clientFramework": "react",
+    "clientTheme": "cosmo",
+    "clientThemeVariant": "primary",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.5.0"
+      },
+      {
+        "name": "generator-jhipster-uaa-security-authority",
+        "version": "1.0.1"
+      },
+      {
+        "name": "generator-jhipster-administration-database",
+        "version": "1.0.4"
+      }
+    ],
+    "enableTranslation": false
+  }
+}
